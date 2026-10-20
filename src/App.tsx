@@ -38,38 +38,74 @@ const mainProduct: DownloadItem = {
 const bonusItems: DownloadItem[] = [
   {
     id: 'bonus1',
-    tag: 'BONUS 1 · INCLUSO',
-    title: 'Kit Calligrafia Perfetta',
-    subtitle: 'Guida Pratica per una Scrittura Chiara e Fluida',
+    tag: 'BONUS 1 · GUIDA GENITORI',
+    title: "L'Arte di Leggere Insieme",
+    subtitle: 'Tecniche Pratiche di Lettura Condivisa e Coinvolgimento',
     description:
-      'Schede progressive per correggere l\'impugnatura, la postura e la fluidità del corsivo con soli 10 minuti di allenamento al giorno.',
-    pages: '40 Pagine (PDF)',
-    size: '233 KB',
-    filename: '/Kit_Calligrafia_Perfetta.pdf',
-    badgeColor: '#be868c'
-  },
-  {
-    id: 'bonus2',
-    tag: 'BONUS 2 · INCLUSO',
-    title: 'Ora di Lettura',
-    subtitle: '24 Testi con Cronometro e Autovalutazione',
-    description:
-      '24 testi coinvolgenti divisi in 3 livelli di lunghezza, con sfide a tempo e autovalutazione a stelle per stimolare concentrazione e costanza.',
-    pages: '42 Pagine (PDF)',
-    size: '2.3 MB',
-    filename: '/Ora_di_Lettura.pdf',
+      "La guida metodologica per genitori con le migliori tecniche psicopedagogiche (lettura alternata, pausa predittiva e domande aperte) per sbloccare l'interesse alla lettura in 15 minuti al giorno.",
+    pages: '3 Pagine (PDF)',
+    size: '46 KB',
+    filename: '/Bonus_1_Guida_L_Arte_di_Leggere_Insieme.pdf',
     badgeColor: '#887396'
   },
   {
-    id: 'bonus3',
-    tag: 'BONUS 3 · INCLUSO',
-    title: 'Semplificando la Matematica di Base',
-    subtitle: '120 Esercizi Pratici e Problemi Guidati',
+    id: 'bonus2',
+    tag: 'BONUS 2 · TRACKER STAMPABILE',
+    title: 'Diario di Lettura Personale',
+    subtitle: 'Schede di Monitoraggio e Autovalutazione a Stelle (1-5)',
     description:
-      'Percorso graduale con addizioni, sottrazioni, tabelline, divisioni e problemi guidati con soluzioni per dare sicurezza con i numeri.',
-    pages: '31 Pagine (PDF)',
-    size: '85 KB',
-    filename: '/Semplificando_la_Matematica_di_Base.pdf',
+      'Modelli dedicati per Livello 1 e Livelli 2/3. Rende la lettura un percorso stimolante e visibile, dove il bambino assegna il suo giudizio, tiene traccia dei testi completati e rafforza la costanza.',
+    pages: '3 Pagine (PDF)',
+    size: '46 KB',
+    filename: '/Bonus_2_Diario_di_Lettura_e_Tracker.pdf',
+    badgeColor: '#be868c'
+  },
+  {
+    id: 'bonus3',
+    tag: 'BONUS 3 · GUIDA ORIENTATIVA',
+    title: 'Scegliere il Libro Giusto per Ogni Età',
+    subtitle: 'Criteri e Generi Consigliati per Bambini dai 7 ai 12 Anni',
+    description:
+      'La bussola per non sbagliare mai un libro in libreria o in biblioteca: indicazioni per fasce 7-8, 9-10 e 11-12 anni, generi adatti e i segnali chiave per capire se un testo stimola o blocca il bambino.',
+    pages: '3 Pagine (PDF)',
+    size: '46 KB',
+    filename: '/Bonus_3_Guida_Scelta_Libri_per_Eta.pdf',
+    badgeColor: '#887396'
+  },
+  {
+    id: 'bonus4',
+    tag: 'BONUS 4 · LABORATORIO PRATICO',
+    title: 'Interpretare nella Vita Quotidiana',
+    subtitle: 'Esercizi Pratici e Giochi Settimanali in Famiglia',
+    description:
+      'Come applicare la comprensione del testo alla realtà: interpretare le regole dei giochi da tavolo, le ricette in cucina, cartelli e il gioco settimanale in famiglia per rendere la lettura spontanea.',
+    pages: '2 Pagine (PDF)',
+    size: '44 KB',
+    filename: '/Bonus_4_Interpretare_nella_Vita_Quotidiana.pdf',
+    badgeColor: '#be868c'
+  },
+  {
+    id: 'bonus5',
+    tag: 'BONUS 5 · CHIAVI & DIPLOMA',
+    title: 'Soluzioni Complete + Attestato di Merito',
+    subtitle: 'Gabarito di Tutte le 90 Schede e Diploma Ufficiale',
+    description:
+      'Il registro dettagliato con tutte le risposte dei 3 Livelli (587 attività) per correggere in 30 secondi, più il diploma ufficiale personalizzabile da stampare e appendere in cameretta.',
+    pages: '19 Pagine (PDF)',
+    size: '87 KB',
+    filename: '/Bonus_Soluzioni_Complete_e_Attestato_di_Merito.pdf',
+    badgeColor: '#887396'
+  },
+  {
+    id: 'extra_test',
+    tag: 'RISORSA DIAGNOSTICA · INCLUSA',
+    title: 'Test di Livello Iniziale per Genitori',
+    subtitle: '3 Prove Diagnostiche con Griglia di Valutazione',
+    description:
+      '3 prove graduate con griglia di orientamento per individuare subito il livello di partenza perfetto di tuo figlio tra Livello 1, 2 e 3, evitando noia o frustrazione.',
+    pages: '5 Pagine (PDF)',
+    size: '51 KB',
+    filename: '/Guida_Test_di_Livello_Iniziale.pdf',
     badgeColor: '#be868c'
   }
 ];
